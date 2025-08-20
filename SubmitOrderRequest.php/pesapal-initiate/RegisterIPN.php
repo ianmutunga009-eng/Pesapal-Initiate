@@ -27,8 +27,8 @@ $response = curl_exec($ch);
 $responseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
 $data = json_decode($response);
-$ipn_id = $data->ipn_id;
-$ipn_url = $data->url;
+echo $ipn_id = $data->ipn_id;
+echo $ipn_url = $data->url;
 
 
 
