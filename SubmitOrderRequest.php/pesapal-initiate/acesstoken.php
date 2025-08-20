@@ -1,6 +1,5 @@
 <?php
 define('APP_ENVIROMENT', 'live'); // sandbox or live
-
 if(APP_ENVIROMENT == 'sandbox'){
     $apiUrl = "https://cybqa.pesapal.com/pesapalv3/api/Auth/RequestToken"; // Sandbox URL
     $consumerKey = "qkio1BGGYAXTu2JOfm7XSXNruoZsrqEW";
